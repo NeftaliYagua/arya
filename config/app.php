@@ -55,7 +55,7 @@ return [
     'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL', null),
-    
+
     'Teepluss\Asset\AssetServiceProvider',
     'Asset' => 'Teepluss\Asset\Facades\Asset',
     /*
@@ -121,14 +121,9 @@ return [
     |
     */
 
-    /*'key' => env('APP_KEY'),
-
-    'cipher' => 'AES-256-CBC',*/
-
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
-
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
